@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Real Estate &amp; Marketing Gallery — Deep Ocean Associate</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="gallery.css">
+</head>
+<body>
+<header class="g-header">
+  <div class="g-wrap">
+    <a href="index.html" class="g-brand"><img src="icon.png" alt="Deep Ocean Associate"><span>Deep Ocean Associate</span></a>
+    <a href="index.html#services" class="g-back"><i class="fa fa-arrow-left"></i> Back to Services</a>
+  </div>
+</header>
+<main class="g-wrap">
+  <h1>Real Estate &amp; Marketing</h1>
+  <p class="g-sub">Current listings and featured properties.</p>
+  <div class="g-grid" id="grid">
+    <button class="g-item"><img src="ads/ad1.jpeg" alt="Real Estate & Marketing 1" loading="lazy"></button>
+    <button class="g-item"><img src="ads/ad2.jpeg" alt="Real Estate & Marketing 2" loading="lazy"></button>
+    <button class="g-item"><img src="ads/ad3.jpeg" alt="Real Estate & Marketing 3" loading="lazy"></button>
+    <button class="g-item"><img src="ads/ad4.jpeg" alt="Real Estate & Marketing 4" loading="lazy"></button>
+    <button class="g-item"><img src="ads/ad5.jpeg" alt="Real Estate & Marketing 5" loading="lazy"></button>
+    <button class="g-item"><img src="ads/ad6.jpeg" alt="Real Estate & Marketing 6" loading="lazy"></button>
+  </div>
+  <div class="g-cta"><a href="index.html#contact" class="g-btn"><i class="fa fa-phone"></i> Get in Touch</a></div>
+</main>
+<div class="lightbox" id="lb">
+  <button class="lb-btn lb-close" id="lbClose" aria-label="Close"><i class="fa fa-times"></i></button>
+  <button class="lb-btn lb-prev" id="lbPrev" aria-label="Previous"><i class="fa fa-chevron-left"></i></button>
+  <img id="lbImg" src="" alt="">
+  <button class="lb-btn lb-next" id="lbNext" aria-label="Next"><i class="fa fa-chevron-right"></i></button>
+</div>
+<script src="gallery.js"></script>
+</body>
+</html>
